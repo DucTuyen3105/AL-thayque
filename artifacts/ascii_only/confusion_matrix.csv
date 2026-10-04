@@ -1,0 +1,11 @@
+truth,Chinese,English,French,German,Italian,Japanese,Korean,Russian,Spanish,Vietnamese
+Chinese,637,62,3,8,4,26,27,20,6,9
+English,36,634,39,22,23,25,12,26,13,14
+French,7,23,39,3,4,5,2,3,1,2
+German,3,46,5,75,2,8,2,9,1,0
+Italian,8,10,6,0,120,11,0,7,13,1
+Japanese,32,71,8,15,13,1684,24,29,10,4
+Korean,12,23,5,3,1,11,503,7,4,4
+Russian,13,47,6,8,11,20,14,1316,5,2
+Spanish,5,11,2,1,19,10,2,7,46,0
+Vietnamese,3,12,3,6,1,6,3,4,0,30

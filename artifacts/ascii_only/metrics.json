@@ -1,0 +1,571 @@
+{
+  "architecture": "Embedding(32) -> LSTM -> Dropout(0.3) -> Linear -> calibrated Softmax",
+  "parameters": 85226,
+  "config": {
+    "epochs": 50,
+    "patience": 8,
+    "batch_size": 128,
+    "hidden_dim": 128,
+    "lr": 0.002,
+    "seed": 42,
+    "threads": 4
+  },
+  "best_epoch": 23,
+  "temperature": 1.05,
+  "validation": {
+    "accuracy": 0.8411793451702232,
+    "balanced_accuracy": 0.7065508780387038,
+    "macro_f1": 0.6950161115162492,
+    "top3_accuracy": 0.935005701254276,
+    "log_loss": 0.5921905636787415,
+    "per_class": {
+      "Chinese": {
+        "precision": 0.8496815286624204,
+        "recall": 0.8316708229426434,
+        "f1-score": 0.8405797101449275,
+        "support": 802.0
+      },
+      "English": {
+        "precision": 0.6992561105207227,
+        "recall": 0.7805456702253856,
+        "f1-score": 0.7376681614349776,
+        "support": 843.0
+      },
+      "French": {
+        "precision": 0.4380952380952381,
+        "recall": 0.5111111111111111,
+        "f1-score": 0.4717948717948718,
+        "support": 90.0
+      },
+      "German": {
+        "precision": 0.44936708860759494,
+        "recall": 0.47019867549668876,
+        "f1-score": 0.459546925566343,
+        "support": 151.0
+      },
+      "Italian": {
+        "precision": 0.6348314606741573,
+        "recall": 0.6457142857142857,
+        "f1-score": 0.6402266288951841,
+        "support": 175.0
+      },
+      "Japanese": {
+        "precision": 0.9361585030269676,
+        "recall": 0.8995240613432046,
+        "f1-score": 0.9174757281553398,
+        "support": 1891.0
+      },
+      "Korean": {
+        "precision": 0.9045045045045045,
+        "recall": 0.8745644599303136,
+        "f1-score": 0.8892825509300266,
+        "support": 574.0
+      },
+      "Russian": {
+        "precision": 0.9311079545454546,
+        "recall": 0.9097848716169327,
+        "f1-score": 0.9203229203229203,
+        "support": 1441.0
+      },
+      "Spanish": {
+        "precision": 0.4375,
+        "recall": 0.47572815533980584,
+        "f1-score": 0.4558139534883721,
+        "support": 103.0
+      },
+      "Vietnamese": {
+        "precision": 0.575,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6174496644295302,
+        "support": 69.0
+      },
+      "accuracy": 0.8411793451702232,
+      "macro avg": {
+        "precision": 0.685550238863706,
+        "recall": 0.7065508780387038,
+        "f1-score": 0.6950161115162492,
+        "support": 6139.0
+      },
+      "weighted avg": {
+        "precision": 0.8478940172490809,
+        "recall": 0.8411793451702232,
+        "f1-score": 0.8439525900505752,
+        "support": 6139.0
+      }
+    }
+  },
+  "test": {
+    "accuracy": 0.8282828282828283,
+    "balanced_accuracy": 0.6731399357705171,
+    "macro_f1": 0.6662057678576936,
+    "top3_accuracy": 0.9322254806125774,
+    "log_loss": 0.6164752840995789,
+    "per_class": {
+      "Chinese": {
+        "precision": 0.8425925925925926,
+        "recall": 0.7942643391521197,
+        "f1-score": 0.8177150192554558,
+        "support": 802.0
+      },
+      "English": {
+        "precision": 0.6751863684771033,
+        "recall": 0.7511848341232228,
+        "f1-score": 0.7111609646662927,
+        "support": 844.0
+      },
+      "French": {
+        "precision": 0.33620689655172414,
+        "recall": 0.43820224719101125,
+        "f1-score": 0.3804878048780488,
+        "support": 89.0
+      },
+      "German": {
+        "precision": 0.5319148936170213,
+        "recall": 0.4966887417218543,
+        "f1-score": 0.5136986301369864,
+        "support": 151.0
+      },
+      "Italian": {
+        "precision": 0.6060606060606061,
+        "recall": 0.6818181818181818,
+        "f1-score": 0.6417112299465241,
+        "support": 176.0
+      },
+      "Japanese": {
+        "precision": 0.9324473975636767,
+        "recall": 0.891005291005291,
+        "f1-score": 0.9112554112554112,
+        "support": 1890.0
+      },
+      "Korean": {
+        "precision": 0.8539898132427843,
+        "recall": 0.8778359511343804,
+        "f1-score": 0.8657487091222031,
+        "support": 573.0
+      },
+      "Russian": {
+        "precision": 0.9215686274509803,
+        "recall": 0.912621359223301,
+        "f1-score": 0.9170731707317074,
+        "support": 1442.0
+      },
+      "Spanish": {
+        "precision": 0.46464646464646464,
+        "recall": 0.44660194174757284,
+        "f1-score": 0.45544554455445546,
+        "support": 103.0
+      },
+      "Vietnamese": {
+        "precision": 0.45454545454545453,
+        "recall": 0.4411764705882353,
+        "f1-score": 0.44776119402985076,
+        "support": 68.0
+      },
+      "accuracy": 0.8282828282828283,
+      "macro avg": {
+        "precision": 0.6619159114748407,
+        "recall": 0.6731399357705171,
+        "f1-score": 0.6662057678576936,
+        "support": 6138.0
+      },
+      "weighted avg": {
+        "precision": 0.8344503365241659,
+        "recall": 0.8282828282828283,
+        "f1-score": 0.8306492808658612,
+        "support": 6138.0
+      }
+    }
+  },
+  "baseline_tfidf_logistic": {
+    "C": 8,
+    "validation_macro_f1": 0.6693590320461449,
+    "test": {
+      "accuracy": 0.8258390355164549,
+      "balanced_accuracy": 0.6802217175529061,
+      "macro_f1": 0.6563693613514565,
+      "top3_accuracy": 0.9343434343434344,
+      "log_loss": 0.5916726912058524,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.8746556473829201,
+          "recall": 0.7917705735660848,
+          "f1-score": 0.831151832460733,
+          "support": 802.0
+        },
+        "English": {
+          "precision": 0.6960893854748603,
+          "recall": 0.7381516587677726,
+          "f1-score": 0.7165037377803335,
+          "support": 844.0
+        },
+        "French": {
+          "precision": 0.35398230088495575,
+          "recall": 0.449438202247191,
+          "f1-score": 0.39603960396039606,
+          "support": 89.0
+        },
+        "German": {
+          "precision": 0.4079601990049751,
+          "recall": 0.543046357615894,
+          "f1-score": 0.4659090909090909,
+          "support": 151.0
+        },
+        "Italian": {
+          "precision": 0.4978723404255319,
+          "recall": 0.6647727272727273,
+          "f1-score": 0.5693430656934306,
+          "support": 176.0
+        },
+        "Japanese": {
+          "precision": 0.9284140969162996,
+          "recall": 0.8920634920634921,
+          "f1-score": 0.9098758769562871,
+          "support": 1890.0
+        },
+        "Korean": {
+          "precision": 0.8964285714285715,
+          "recall": 0.8760907504363001,
+          "f1-score": 0.8861429832303619,
+          "support": 573.0
+        },
+        "Russian": {
+          "precision": 0.9388489208633094,
+          "recall": 0.90499306518724,
+          "f1-score": 0.9216101694915254,
+          "support": 1442.0
+        },
+        "Spanish": {
+          "precision": 0.3548387096774194,
+          "recall": 0.42718446601941745,
+          "f1-score": 0.3876651982378855,
+          "support": 103.0
+        },
+        "Vietnamese": {
+          "precision": 0.44871794871794873,
+          "recall": 0.5147058823529411,
+          "f1-score": 0.4794520547945205,
+          "support": 68.0
+        },
+        "accuracy": 0.8258390355164549,
+        "macro avg": {
+          "precision": 0.6397808120776791,
+          "recall": 0.6802217175529061,
+          "f1-score": 0.6563693613514565,
+          "support": 6138.0
+        },
+        "weighted avg": {
+          "precision": 0.8404924704105824,
+          "recall": 0.8258390355164549,
+          "f1-score": 0.8318730136447686,
+          "support": 6138.0
+        }
+      }
+    }
+  },
+  "test_subsets": {
+    "dictionary_or_tutorial": {
+      "rows": 3059,
+      "accuracy": 0.8058188950637464,
+      "balanced_accuracy": 0.708080706527298,
+      "macro_f1": 0.6222935017112412,
+      "top3_accuracy": 0.9323308270676691,
+      "log_loss": 0.6642932891845703,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.23469387755102042,
+          "recall": 0.6764705882352942,
+          "f1-score": 0.3484848484848485,
+          "support": 34.0
+        },
+        "English": {
+          "precision": 0.8170103092783505,
+          "recall": 0.7520759193357058,
+          "f1-score": 0.7831995058678196,
+          "support": 843.0
+        },
+        "French": {
+          "precision": 0.40625,
+          "recall": 0.43820224719101125,
+          "f1-score": 0.42162162162162165,
+          "support": 89.0
+        },
+        "German": {
+          "precision": 0.6818181818181818,
+          "recall": 0.4966887417218543,
+          "f1-score": 0.5747126436781609,
+          "support": 151.0
+        },
+        "Italian": {
+          "precision": 0.6666666666666666,
+          "recall": 0.686046511627907,
+          "f1-score": 0.6762177650429799,
+          "support": 172.0
+        },
+        "Japanese": {
+          "precision": 0.6706349206349206,
+          "recall": 0.976878612716763,
+          "f1-score": 0.7952941176470588,
+          "support": 173.0
+        },
+        "Korean": {
+          "precision": 0.39655172413793105,
+          "recall": 0.92,
+          "f1-score": 0.5542168674698795,
+          "support": 25.0
+        },
+        "Russian": {
+          "precision": 0.960555149744339,
+          "recall": 0.9131944444444444,
+          "f1-score": 0.9362762548949805,
+          "support": 1440.0
+        },
+        "Spanish": {
+          "precision": 0.5789473684210527,
+          "recall": 0.44,
+          "f1-score": 0.5,
+          "support": 100.0
+        },
+        "Vietnamese": {
+          "precision": 0.5319148936170213,
+          "recall": 0.78125,
+          "f1-score": 0.6329113924050633,
+          "support": 32.0
+        },
+        "accuracy": 0.8058188950637464,
+        "macro avg": {
+          "precision": 0.5945043091869483,
+          "recall": 0.708080706527298,
+          "f1-score": 0.6222935017112412,
+          "support": 3059.0
+        },
+        "weighted avg": {
+          "precision": 0.8285537130181707,
+          "recall": 0.8058188950637464,
+          "f1-score": 0.8115833059979072,
+          "support": 3059.0
+        }
+      }
+    },
+    "wikidata_silver_only": {
+      "rows": 3053,
+      "accuracy": 0.8519489027186374,
+      "balanced_accuracy": 0.6746990692028334,
+      "macro_f1": 0.2862817888469376,
+      "top3_accuracy": 0.9328529315427448,
+      "log_loss": 0.5641415119171143,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.9371165644171779,
+          "recall": 0.7997382198952879,
+          "f1-score": 0.8629943502824858,
+          "support": 764.0
+        },
+        "English": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "French": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "German": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Italian": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Japanese": {
+          "precision": 0.9760672703751617,
+          "recall": 0.8819403857393338,
+          "f1-score": 0.9266195885784464,
+          "support": 1711.0
+        },
+        "Korean": {
+          "precision": 0.9049429657794676,
+          "recall": 0.8782287822878229,
+          "f1-score": 0.8913857677902621,
+          "support": 542.0
+        },
+        "Russian": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Spanish": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Vietnamese": {
+          "precision": 0.2631578947368421,
+          "recall": 0.1388888888888889,
+          "f1-score": 0.18181818181818182,
+          "support": 36.0
+        },
+        "accuracy": 0.8519489027186374,
+        "macro avg": {
+          "precision": 0.3081284695308649,
+          "recall": 0.2698796276811333,
+          "f1-score": 0.2862817888469376,
+          "support": 3053.0
+        },
+        "weighted avg": {
+          "precision": 0.945286906809572,
+          "recall": 0.8519489027186374,
+          "f1-score": 0.8956601180351516,
+          "support": 3053.0
+        }
+      }
+    },
+    "single_token": {
+      "rows": 6134,
+      "accuracy": 0.8284969025105967,
+      "balanced_accuracy": 0.6728693519853702,
+      "macro_f1": 0.6659041786235271,
+      "top3_accuracy": 0.9321812846429736,
+      "log_loss": 0.6160927414894104,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.8425925925925926,
+          "recall": 0.7942643391521197,
+          "f1-score": 0.8177150192554558,
+          "support": 802.0
+        },
+        "English": {
+          "precision": 0.6751863684771033,
+          "recall": 0.7511848341232228,
+          "f1-score": 0.7111609646662927,
+          "support": 844.0
+        },
+        "French": {
+          "precision": 0.33620689655172414,
+          "recall": 0.43820224719101125,
+          "f1-score": 0.3804878048780488,
+          "support": 89.0
+        },
+        "German": {
+          "precision": 0.5319148936170213,
+          "recall": 0.4966887417218543,
+          "f1-score": 0.5136986301369864,
+          "support": 151.0
+        },
+        "Italian": {
+          "precision": 0.6091370558375635,
+          "recall": 0.6857142857142857,
+          "f1-score": 0.6451612903225806,
+          "support": 175.0
+        },
+        "Japanese": {
+          "precision": 0.9324473975636767,
+          "recall": 0.891005291005291,
+          "f1-score": 0.9112554112554112,
+          "support": 1890.0
+        },
+        "Korean": {
+          "precision": 0.8539898132427843,
+          "recall": 0.8778359511343804,
+          "f1-score": 0.8657487091222031,
+          "support": 573.0
+        },
+        "Russian": {
+          "precision": 0.9215686274509803,
+          "recall": 0.912621359223301,
+          "f1-score": 0.9170731707317074,
+          "support": 1442.0
+        },
+        "Spanish": {
+          "precision": 0.4583333333333333,
+          "recall": 0.44,
+          "f1-score": 0.4489795918367347,
+          "support": 100.0
+        },
+        "Vietnamese": {
+          "precision": 0.45454545454545453,
+          "recall": 0.4411764705882353,
+          "f1-score": 0.44776119402985076,
+          "support": 68.0
+        },
+        "accuracy": 0.8284969025105967,
+        "macro avg": {
+          "precision": 0.6615922433212233,
+          "recall": 0.6728693519853702,
+          "f1-score": 0.6659041786235271,
+          "support": 6134.0
+        },
+        "weighted avg": {
+          "precision": 0.8346532818984322,
+          "recall": 0.8284969025105967,
+          "f1-score": 0.8308566030950577,
+          "support": 6134.0
+        }
+      }
+    }
+  },
+  "majority_class_test_accuracy": 0.30791788856304986,
+  "split_rows": {
+    "train": 28611,
+    "val": 6139,
+    "test": 6138
+  },
+  "split_independent_groups": {
+    "train": 28593,
+    "val": 6127,
+    "test": 6128
+  },
+  "elapsed_seconds": 237.24,
+  "test_scope": "Held-out Latin-script surnames and given names with a single label among ten selected classes; ambiguous names excluded. Includes Wikidata silver labels derived from subgroup association >=0.95. Not a full-name benchmark or independent etymology validation.",
+  "source_manifest": {
+    "pytorch_names.zip": {
+      "url": "https://download.pytorch.org/tutorial/data.zip",
+      "sha256": "fb317e80248faeb62dc25ef3390ae24ca34b94e276bbc5141fd8862c2200bff5",
+      "bytes": 2882130
+    },
+    "behind_name.csv": {
+      "url": "https://raw.githubusercontent.com/Anwarvic/Behind-The-Name/master/dataset.csv",
+      "sha256": "a40ff6322502db526eabd73877f7d02f39d579c2f69d947af9e3b31598fd5160",
+      "bytes": 2841662
+    },
+    "popular_common-forenames-by-country.csv": {
+      "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-forenames-by-country.csv",
+      "sha256": "b55fbdd0cbc8ddfa7345322e9ebd479cc52fa1f90a5ee7e382a68b5487b01292",
+      "bytes": 124454
+    },
+    "popular_common-surnames-by-country.csv": {
+      "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-surnames-by-country.csv",
+      "sha256": "32cb28bea558a9d353feeef097da03c6488a4e7ba9398e5983cee2f0b9caa91c",
+      "bytes": 95779
+    },
+    "vietnamese_boy.txt": {
+      "url": "https://raw.githubusercontent.com/duyet/vietnamese-namedb/master/boy.txt",
+      "sha256": "c78d7880b4cf197b30e09330159b675c3a0faaba7694399bf871474458d6b24f",
+      "bytes": 15305
+    },
+    "vietnamese_girl.txt": {
+      "url": "https://raw.githubusercontent.com/duyet/vietnamese-namedb/master/girl.txt",
+      "sha256": "939f7711ac87460eb06bcd533b121997eb038152b89adf16218d928a603669e4",
+      "bytes": 15494
+    },
+    "wikidata_given.csv": {
+      "url": "https://raw.githubusercontent.com/reglab/disaggregation/main/data/name_race_data/p_race_given_firstname.csv",
+      "sha256": "6a439523e0d4cf03e21a1f567f0df101fbe9e77bbe251f62849329250a319eac",
+      "bytes": 648734
+    },
+    "wikidata_surname.csv": {
+      "url": "https://raw.githubusercontent.com/reglab/disaggregation/main/data/name_race_data/p_race_given_surname.csv",
+      "sha256": "a9604f20f2c4afb3bb56078d867231c9b57b377a13bc847b5d945f744a8279af",
+      "bytes": 449132
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "name": "Nguyễn",
+  "normalized": "nguyen",
+  "candidates": [
+    {
+      "language": "Vietnamese",
+      "display": "Việt",
+      "score": 0.987414
+    },
+    {
+      "language": "Chinese",
+      "display": "Trung",
+      "score": 0.009511
+    },
+    {
+      "language": "English",
+      "display": "Anh",
+      "score": 0.000919
+    }
+  ],
+  "uncertain": false,
+  "status": "Nhóm tên có điểm cao nhất",
+  "method": "single_name_lstm",
+  "components": [
+    {
+      "name": "nguyen",
+      "language": "Vietnamese",
+      "score": 0.987414
+    }
+  ],
+  "ambiguous_components": {},
+  "warnings": [],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}
+{
+  "name": "Nguyễn Đức Tuyên",
+  "normalized": "nguyen duc tuyen",
+  "candidates": [
+    {
+      "language": "Vietnamese",
+      "display": "Việt",
+      "score": 0.972466
+    },
+    {
+      "language": "Korean",
+      "display": "Hàn",
+      "score": 0.008237
+    },
+    {
+      "language": "Chinese",
+      "display": "Trung",
+      "score": 0.008026
+    }
+  ],
+  "uncertain": false,
+  "status": "Nhóm tên có điểm cao nhất",
+  "method": "mean_of_components",
+  "components": [
+    {
+      "name": "nguyen",
+      "language": "Vietnamese",
+      "score": 0.987414
+    },
+    {
+      "name": "duc",
+      "language": "Vietnamese",
+      "score": 0.966198
+    },
+    {
+      "name": "tuyen",
+      "language": "Vietnamese",
+      "score": 0.963787
+    }
+  ],
+  "ambiguous_components": {},
+  "warnings": [
+    "Họ tên đầy đủ: lấy trung bình điểm của từng thành phần. Cách gộp này chưa được đánh giá trên tập họ tên đầy đủ."
+  ],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}
+{
+  "name": "Yamamoto",
+  "normalized": "yamamoto",
+  "candidates": [
+    {
+      "language": "Japanese",
+      "display": "Nhật",
+      "score": 0.937747
+    },
+    {
+      "language": "French",
+      "display": "Pháp",
+      "score": 0.017934
+    },
+    {
+      "language": "Vietnamese",
+      "display": "Việt",
+      "score": 0.010588
+    }
+  ],
+  "uncertain": false,
+  "status": "Nhóm tên có điểm cao nhất",
+  "method": "single_name_lstm",
+  "components": [
+    {
+      "name": "yamamoto",
+      "language": "Japanese",
+      "score": 0.937747
+    }
+  ],
+  "ambiguous_components": {},
+  "warnings": [],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}
+{
+  "name": "Kim Min-jun",
+  "normalized": "kim min-jun",
+  "candidates": [
+    {
+      "language": "Korean",
+      "display": "Hàn",
+      "score": 0.770685
+    },
+    {
+      "language": "Chinese",
+      "display": "Trung",
+      "score": 0.060162
+    },
+    {
+      "language": "English",
+      "display": "Anh",
+      "score": 0.054069
+    }
+  ],
+  "uncertain": true,
+  "status": "Chưa đủ chắc",
+  "method": "mean_of_components",
+  "components": [
+    {
+      "name": "kim",
+      "language": "Korean",
+      "score": 0.578749
+    },
+    {
+      "name": "min-jun",
+      "language": "Korean",
+      "score": 0.962622
+    }
+  ],
+  "ambiguous_components": {
+    "kim": [
+      "Chinese",
+      "English",
+      "Korean",
+      "Vietnamese"
+    ]
+  },
+  "warnings": [
+    "Họ tên đầy đủ: lấy trung bình điểm của từng thành phần. Cách gộp này chưa được đánh giá trên tập họ tên đầy đủ.",
+    "Một số thành phần xuất hiện ở nhiều nhóm tên trong dataset; không có một nhãn duy nhất."
+  ],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}
+{
+  "name": "John Smith",
+  "normalized": "john smith",
+  "candidates": [
+    {
+      "language": "English",
+      "display": "Anh",
+      "score": 0.767981
+    },
+    {
+      "language": "Korean",
+      "display": "Hàn",
+      "score": 0.088679
+    },
+    {
+      "language": "German",
+      "display": "Đức",
+      "score": 0.080711
+    }
+  ],
+  "uncertain": false,
+  "status": "Nhóm tên có điểm cao nhất",
+  "method": "mean_of_components",
+  "components": [
+    {
+      "name": "john",
+      "language": "English",
+      "score": 0.556849
+    },
+    {
+      "name": "smith",
+      "language": "English",
+      "score": 0.979113
+    }
+  ],
+  "ambiguous_components": {},
+  "warnings": [
+    "Họ tên đầy đủ: lấy trung bình điểm của từng thành phần. Cách gộp này chưa được đánh giá trên tập họ tên đầy đủ."
+  ],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}
+{
+  "name": "Pierre Martin",
+  "normalized": "pierre martin",
+  "candidates": [
+    {
+      "language": "French",
+      "display": "Pháp",
+      "score": 0.745939
+    },
+    {
+      "language": "Russian",
+      "display": "Nga",
+      "score": 0.083504
+    },
+    {
+      "language": "German",
+      "display": "Đức",
+      "score": 0.055322
+    }
+  ],
+  "uncertain": true,
+  "status": "Chưa đủ chắc",
+  "method": "mean_of_components",
+  "components": [
+    {
+      "name": "pierre",
+      "language": "French",
+      "score": 0.90708
+    },
+    {
+      "name": "martin",
+      "language": "French",
+      "score": 0.584797
+    }
+  ],
+  "ambiguous_components": {
+    "pierre": [
+      "English",
+      "French",
+      "Vietnamese"
+    ],
+    "martin": [
+      "English",
+      "French",
+      "German",
+      "Russian",
+      "Spanish"
+    ]
+  },
+  "warnings": [
+    "Họ tên đầy đủ: lấy trung bình điểm của từng thành phần. Cách gộp này chưa được đánh giá trên tập họ tên đầy đủ.",
+    "Một số thành phần xuất hiện ở nhiều nhóm tên trong dataset; không có một nhãn duy nhất."
+  ],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}
+{
+  "name": "Lee",
+  "normalized": "lee",
+  "candidates": [
+    {
+      "language": "English",
+      "display": "Anh",
+      "score": 0.875179
+    },
+    {
+      "language": "Chinese",
+      "display": "Trung",
+      "score": 0.03842
+    },
+    {
+      "language": "Korean",
+      "display": "Hàn",
+      "score": 0.022511
+    }
+  ],
+  "uncertain": true,
+  "status": "Chưa đủ chắc",
+  "method": "single_name_lstm",
+  "components": [
+    {
+      "name": "lee",
+      "language": "English",
+      "score": 0.875179
+    }
+  ],
+  "ambiguous_components": {
+    "lee": [
+      "Chinese",
+      "English",
+      "Korean",
+      "Russian"
+    ]
+  },
+  "warnings": [
+    "Một số thành phần xuất hiện ở nhiều nhóm tên trong dataset; không có một nhãn duy nhất."
+  ],
+  "note": "Điểm mô hình trong 10 nhóm tên; không xác định quốc tịch, dân tộc hoặc ngôn ngữ người đó sử dụng."
+}

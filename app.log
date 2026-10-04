@@ -1,0 +1,58 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Oct/2026 23:07:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:07:54] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:07:54] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:07:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Oct/2026 23:07:56] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:07:56] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:07:56] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+127.0.0.1 - - [04/Oct/2026 23:07:56] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:08:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:08:31] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:08:31] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:08:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Oct/2026 23:08:41] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:12:48] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:12:55] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:22:06] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:22:14] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:22:23] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:24:55] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:25:09] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:25:19] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:25:31] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:25:44] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:25:56] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:26:09] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:26:26] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:26:49] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:26:49] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:26:51] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:27:09] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:27:21] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:27:30] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+127.0.0.1 - - [04/Oct/2026 23:27:38] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:27:49] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:28:12] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:28:17] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:28:29] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:03] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:07] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:13] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:14] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:15] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:15] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:15] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:16] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:16] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:17] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:18] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:18] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:19] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:29] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:44] "POST /api/predict HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 23:32:44] "POST /api/predict HTTP/1.1" 200 -

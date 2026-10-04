@@ -1,0 +1,120 @@
+{
+  "seed": 42,
+  "labels": [
+    "Chinese",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Japanese",
+    "Korean",
+    "Russian",
+    "Spanish",
+    "Vietnamese"
+  ],
+  "raw_behind_name_rows": 20505,
+  "raw_wikidata_rows": {
+    "given_name": 25876,
+    "surname": 18703
+  },
+  "wikidata_association_threshold": 0.95,
+  "wikidata_rows_not_selected": 19785,
+  "vietnamese_unique_components": 455,
+  "raw_popular_rows": {
+    "given_name": 2480,
+    "surname": 2576
+  },
+  "accepted_name_label_records": {
+    "pytorch": 16506,
+    "behind_name": 8557,
+    "vietnamese_namedb": 432,
+    "wikidata_silver": 24794,
+    "popular": 911
+  },
+  "rejected_non_latin_or_invalid": {
+    "pytorch": 4,
+    "vietnamese_namedb": 23,
+    "popular": 434
+  },
+  "unique_normalized_names_before_conflict_removal": 43257,
+  "clean_names": 40888,
+  "independent_groups": 40848,
+  "ambiguous_names_excluded": 2369,
+  "split_counts": {
+    "val": 6139,
+    "train": 28611,
+    "test": 6138
+  },
+  "per_class": {
+    "Chinese": {
+      "train": 3741,
+      "val": 802,
+      "test": 802,
+      "total": 5345,
+      "groups": 5338
+    },
+    "English": {
+      "train": 3937,
+      "val": 843,
+      "test": 844,
+      "total": 5624,
+      "groups": 5624
+    },
+    "French": {
+      "train": 418,
+      "test": 89,
+      "val": 90,
+      "total": 597,
+      "groups": 597
+    },
+    "German": {
+      "test": 151,
+      "train": 705,
+      "val": 151,
+      "total": 1007,
+      "groups": 1007
+    },
+    "Italian": {
+      "train": 820,
+      "val": 175,
+      "test": 176,
+      "total": 1171,
+      "groups": 1171
+    },
+    "Japanese": {
+      "val": 1891,
+      "train": 8806,
+      "test": 1890,
+      "total": 12587,
+      "groups": 12565
+    },
+    "Korean": {
+      "val": 574,
+      "train": 2657,
+      "test": 573,
+      "total": 3804,
+      "groups": 3793
+    },
+    "Russian": {
+      "train": 6725,
+      "test": 1442,
+      "val": 1441,
+      "total": 9608,
+      "groups": 9608
+    },
+    "Spanish": {
+      "train": 481,
+      "val": 103,
+      "test": 103,
+      "total": 687,
+      "groups": 687
+    },
+    "Vietnamese": {
+      "train": 321,
+      "val": 69,
+      "test": 68,
+      "total": 458,
+      "groups": 458
+    }
+  }
+}

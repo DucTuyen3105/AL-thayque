@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Name Origin</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="workspace">
+    <section class="input-card" aria-labelledby="title">
+      <h1 id="title">Name Origin</h1>
+      <p class="muted">Enter a name to explore its linguistic origin.</p>
+      <form id="form">
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="e.g. Yamamoto" maxlength="64" autocomplete="off" required>
+        <button class="submit" type="submit"><span id="submit-label">Analyze name</span><span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+    <section class="result-card" id="result" aria-labelledby="result-title" aria-live="polite" aria-busy="false">
+      <h2 id="result-title" class="eyebrow">ANALYSIS RESULTS</h2>
+      <div id="placeholder">
+        <div class="glyph" aria-hidden="true">Aa</div>
+        <h3>Your results will appear here.</h3>
+        <p class="muted">Enter a name and select Analyze name.</p>
+      </div>
+      <div id="output" hidden>
+        <p id="status" class="muted"></p>
+        <h3 id="origin"></h3>
+        <p id="normalized" class="muted"></p>
+        <div id="bars"></div>
+        <div id="warnings"></div>
+        <p id="components" class="fine"></p>
+        <p class="fine">Scores reflect name patterns, not a person's nationality.</p>
+      </div>
+      <p id="error" role="alert" hidden></p>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Nguyễn",
+    "normalized": "nguyễn",
+    "candidates": [
+      {
+        "language": "Vietnamese",
+        "display": "Vietnamese",
+        "score": 0.954651
+      },
+      {
+        "language": "English",
+        "display": "English",
+        "score": 0.020261
+      },
+      {
+        "language": "Chinese",
+        "display": "Chinese",
+        "score": 0.018615
+      }
+    ],
+    "uncertain": false,
+    "status": "Most likely name origin",
+    "method": "single_name_lstm",
+    "components": [
+      {
+        "name": "nguyễn",
+        "language": "Vietnamese",
+        "score": 0.954651
+      }
+    ],
+    "ambiguous_components": {},
+    "warnings": [
+      "Some characters were not seen during training."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Nguyen",
+    "normalized": "nguyen",
+    "candidates": [
+      {
+        "language": "Vietnamese",
+        "display": "Vietnamese",
+        "score": 0.992802
+      },
+      {
+        "language": "Chinese",
+        "display": "Chinese",
+        "score": 0.002913
+      },
+      {
+        "language": "Korean",
+        "display": "Korean",
+        "score": 0.001913
+      }
+    ],
+    "uncertain": false,
+    "status": "Most likely name origin",
+    "method": "single_name_lstm",
+    "components": [
+      {
+        "name": "nguyen",
+        "language": "Vietnamese",
+        "score": 0.992802
+      }
+    ],
+    "ambiguous_components": {},
+    "warnings": [],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Nguyễn Đức Tuyên",
+    "normalized": "nguyễn đức tuyên",
+    "candidates": [
+      {
+        "language": "Vietnamese",
+        "display": "Vietnamese",
+        "score": 0.920625
+      },
+      {
+        "language": "English",
+        "display": "English",
+        "score": 0.042473
+      },
+      {
+        "language": "Chinese",
+        "display": "Chinese",
+        "score": 0.026869
+      }
+    ],
+    "uncertain": false,
+    "status": "Most likely name origin",
+    "method": "mean_of_components",
+    "components": [
+      {
+        "name": "nguyễn",
+        "language": "Vietnamese",
+        "score": 0.954651
+      },
+      {
+        "name": "đức",
+        "language": "Vietnamese",
+        "score": 0.996508
+      },
+      {
+        "name": "tuyên",
+        "language": "Vietnamese",
+        "score": 0.810717
+      }
+    ],
+    "ambiguous_components": {},
+    "warnings": [
+      "Full-name scores average individual name components. This approach has not been evaluated on full names.",
+      "Some characters were not seen during training."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Nguyen Duc Tuyen",
+    "normalized": "nguyen duc tuyen",
+    "candidates": [
+      {
+        "language": "Vietnamese",
+        "display": "Vietnamese",
+        "score": 0.847594
+      },
+      {
+        "language": "Chinese",
+        "display": "Chinese",
+        "score": 0.088846
+      },
+      {
+        "language": "Spanish",
+        "display": "Spanish",
+        "score": 0.021607
+      }
+    ],
+    "uncertain": false,
+    "status": "Most likely name origin",
+    "method": "mean_of_components",
+    "components": [
+      {
+        "name": "nguyen",
+        "language": "Vietnamese",
+        "score": 0.992802
+      },
+      {
+        "name": "duc",
+        "language": "Vietnamese",
+        "score": 0.970154
+      },
+      {
+        "name": "tuyen",
+        "language": "Vietnamese",
+        "score": 0.579825
+      }
+    ],
+    "ambiguous_components": {},
+    "warnings": [
+      "Full-name scores average individual name components. This approach has not been evaluated on full names."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Yamamoto",
+    "normalized": "yamamoto",
+    "candidates": [
+      {
+        "language": "Japanese",
+        "display": "Japanese",
+        "score": 0.965438
+      },
+      {
+        "language": "French",
+        "display": "French",
+        "score": 0.01079
+      },
+      {
+        "language": "Vietnamese",
+        "display": "Vietnamese",
+        "score": 0.006114
+      }
+    ],
+    "uncertain": false,
+    "status": "Most likely name origin",
+    "method": "single_name_lstm",
+    "components": [
+      {
+        "name": "yamamoto",
+        "language": "Japanese",
+        "score": 0.965438
+      }
+    ],
+    "ambiguous_components": {},
+    "warnings": [],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Kim Min-jun",
+    "normalized": "kim min-jun",
+    "candidates": [
+      {
+        "language": "Korean",
+        "display": "Korean",
+        "score": 0.58405
+      },
+      {
+        "language": "English",
+        "display": "English",
+        "score": 0.140857
+      },
+      {
+        "language": "Russian",
+        "display": "Russian",
+        "score": 0.116675
+      }
+    ],
+    "uncertain": true,
+    "status": "Uncertain result",
+    "method": "mean_of_components",
+    "components": [
+      {
+        "name": "kim",
+        "language": "English",
+        "score": 0.27893
+      },
+      {
+        "name": "min-jun",
+        "language": "Korean",
+        "score": 0.932081
+      }
+    ],
+    "ambiguous_components": {
+      "kim": [
+        "Chinese",
+        "English",
+        "Korean",
+        "Vietnamese"
+      ]
+    },
+    "warnings": [
+      "Full-name scores average individual name components. This approach has not been evaluated on full names.",
+      "Some name components appear in multiple origin groups, so a single origin cannot be confirmed."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "John Smith",
+    "normalized": "john smith",
+    "candidates": [
+      {
+        "language": "English",
+        "display": "English",
+        "score": 0.592251
+      },
+      {
+        "language": "German",
+        "display": "German",
+        "score": 0.248326
+      },
+      {
+        "language": "Japanese",
+        "display": "Japanese",
+        "score": 0.067102
+      }
+    ],
+    "uncertain": false,
+    "status": "Most likely name origin",
+    "method": "mean_of_components",
+    "components": [
+      {
+        "name": "john",
+        "language": "German",
+        "score": 0.484415
+      },
+      {
+        "name": "smith",
+        "language": "English",
+        "score": 0.937922
+      }
+    ],
+    "ambiguous_components": {},
+    "warnings": [
+      "Full-name scores average individual name components. This approach has not been evaluated on full names."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Pierre Martin",
+    "normalized": "pierre martin",
+    "candidates": [
+      {
+        "language": "French",
+        "display": "French",
+        "score": 0.604585
+      },
+      {
+        "language": "Russian",
+        "display": "Russian",
+        "score": 0.306831
+      },
+      {
+        "language": "German",
+        "display": "German",
+        "score": 0.032277
+      }
+    ],
+    "uncertain": true,
+    "status": "Uncertain result",
+    "method": "mean_of_components",
+    "components": [
+      {
+        "name": "pierre",
+        "language": "French",
+        "score": 0.948157
+      },
+      {
+        "name": "martin",
+        "language": "Russian",
+        "score": 0.613544
+      }
+    ],
+    "ambiguous_components": {
+      "pierre": [
+        "English",
+        "French",
+        "Vietnamese"
+      ],
+      "martin": [
+        "English",
+        "French",
+        "German",
+        "Russian",
+        "Spanish"
+      ]
+    },
+    "warnings": [
+      "Full-name scores average individual name components. This approach has not been evaluated on full names.",
+      "Some name components appear in multiple origin groups, so a single origin cannot be confirmed."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  },
+  {
+    "name": "Lee",
+    "normalized": "lee",
+    "candidates": [
+      {
+        "language": "English",
+        "display": "English",
+        "score": 0.961563
+      },
+      {
+        "language": "Chinese",
+        "display": "Chinese",
+        "score": 0.017981
+      },
+      {
+        "language": "Japanese",
+        "display": "Japanese",
+        "score": 0.008965
+      }
+    ],
+    "uncertain": true,
+    "status": "Uncertain result",
+    "method": "single_name_lstm",
+    "components": [
+      {
+        "name": "lee",
+        "language": "English",
+        "score": 0.961563
+      }
+    ],
+    "ambiguous_components": {
+      "lee": [
+        "Chinese",
+        "English",
+        "Korean",
+        "Russian"
+      ]
+    },
+    "warnings": [
+      "Some name components appear in multiple origin groups, so a single origin cannot be confirmed."
+    ],
+    "note": "Model scores across 10 name-origin groups do not determine a person’s nationality, ethnicity or spoken language."
+  }
+]

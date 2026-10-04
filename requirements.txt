@@ -1,0 +1,5 @@
+torch>=2.5,<3
+numpy>=2,<3
+scikit-learn>=1.6,<2
+matplotlib>=3.9,<4
+Flask>=3,<4

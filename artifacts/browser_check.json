@@ -1,0 +1,10 @@
+{
+  "ui": "input_and_analysis_only",
+  "language": "English",
+  "desktop": "passed",
+  "mobile": "passed",
+  "prediction": "passed",
+  "ambiguous_name": "passed",
+  "invalid_input": "passed",
+  "page_errors": []
+}

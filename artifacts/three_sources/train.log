@@ -1,0 +1,44 @@
+/home/amira/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-hziup2nz because there was an issue with the default path (/home/amira/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Epoch 01: loss=1.6535, val_acc=0.7138, val_macro_f1=0.4817
+Epoch 02: loss=1.2761, val_acc=0.7573, val_macro_f1=0.5458
+Epoch 03: loss=1.1729, val_acc=0.7691, val_macro_f1=0.5787
+Epoch 04: loss=1.0983, val_acc=0.7924, val_macro_f1=0.6352
+Epoch 05: loss=1.0516, val_acc=0.7949, val_macro_f1=0.6436
+Epoch 06: loss=0.9927, val_acc=0.7983, val_macro_f1=0.6470
+Epoch 07: loss=0.9510, val_acc=0.8070, val_macro_f1=0.6664
+Epoch 08: loss=0.9112, val_acc=0.8070, val_macro_f1=0.6584
+Epoch 09: loss=0.8763, val_acc=0.8101, val_macro_f1=0.6633
+Epoch 10: loss=0.8426, val_acc=0.8076, val_macro_f1=0.6532
+Epoch 11: loss=0.8060, val_acc=0.8123, val_macro_f1=0.6596
+Epoch 12: loss=0.7772, val_acc=0.8179, val_macro_f1=0.6756
+Epoch 13: loss=0.7501, val_acc=0.8185, val_macro_f1=0.6687
+Epoch 14: loss=0.7257, val_acc=0.8163, val_macro_f1=0.6792
+Epoch 15: loss=0.6970, val_acc=0.8170, val_macro_f1=0.6672
+Epoch 16: loss=0.6762, val_acc=0.8176, val_macro_f1=0.6719
+Epoch 17: loss=0.6531, val_acc=0.8151, val_macro_f1=0.6587
+Epoch 18: loss=0.6364, val_acc=0.8216, val_macro_f1=0.6811
+Epoch 19: loss=0.6166, val_acc=0.8229, val_macro_f1=0.6752
+Epoch 20: loss=0.6014, val_acc=0.8170, val_macro_f1=0.6708
+Epoch 21: loss=0.5898, val_acc=0.8232, val_macro_f1=0.6675
+Epoch 22: loss=0.5762, val_acc=0.8210, val_macro_f1=0.6733
+Epoch 23: loss=0.5642, val_acc=0.8257, val_macro_f1=0.6743
+Epoch 24: loss=0.5575, val_acc=0.8269, val_macro_f1=0.6758
+Epoch 25: loss=0.5492, val_acc=0.8250, val_macro_f1=0.6748
+Epoch 26: loss=0.5425, val_acc=0.8232, val_macro_f1=0.6853
+Epoch 27: loss=0.5333, val_acc=0.8244, val_macro_f1=0.6783
+Epoch 28: loss=0.5312, val_acc=0.8232, val_macro_f1=0.6716
+Epoch 29: loss=0.5251, val_acc=0.8154, val_macro_f1=0.6517
+Epoch 30: loss=0.5210, val_acc=0.8244, val_macro_f1=0.6608
+Epoch 31: loss=0.5143, val_acc=0.8151, val_macro_f1=0.6604
+Epoch 32: loss=0.5075, val_acc=0.8182, val_macro_f1=0.6576
+Epoch 33: loss=0.5031, val_acc=0.8142, val_macro_f1=0.6578
+Epoch 34: loss=0.5016, val_acc=0.8170, val_macro_f1=0.6676
+Early stopping; restore best validation macro-F1 checkpoint.
+{
+  "accuracy": 0.8219944082013048,
+  "balanced_accuracy": 0.6745412127713615,
+  "macro_f1": 0.6613785450602485,
+  "top3_accuracy": 0.9459459459459459,
+  "log_loss": 0.6430628299713135
+}

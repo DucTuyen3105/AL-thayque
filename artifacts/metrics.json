@@ -1,0 +1,654 @@
+{
+  "architecture": "Embedding(32) -> LSTM -> Dropout(0.3) -> Linear -> calibrated Softmax",
+  "parameters": 87114,
+  "config": {
+    "epochs": 50,
+    "patience": 8,
+    "batch_size": 128,
+    "hidden_dim": 128,
+    "lr": 0.002,
+    "seed": 42,
+    "threads": 4
+  },
+  "best_epoch": 15,
+  "temperature": 0.95,
+  "validation": {
+    "accuracy": 0.8432969539012869,
+    "balanced_accuracy": 0.7235963569706604,
+    "macro_f1": 0.7017361332394098,
+    "top3_accuracy": 0.939403811695716,
+    "log_loss": 0.5648790001869202,
+    "per_class": {
+      "Chinese": {
+        "precision": 0.8754863813229572,
+        "recall": 0.8416458852867831,
+        "f1-score": 0.8582326764144946,
+        "support": 802.0
+      },
+      "English": {
+        "precision": 0.7099892588614393,
+        "recall": 0.7841043890865955,
+        "f1-score": 0.7452085682074409,
+        "support": 843.0
+      },
+      "French": {
+        "precision": 0.5,
+        "recall": 0.5555555555555556,
+        "f1-score": 0.5263157894736842,
+        "support": 90.0
+      },
+      "German": {
+        "precision": 0.4457831325301205,
+        "recall": 0.4900662251655629,
+        "f1-score": 0.4668769716088328,
+        "support": 151.0
+      },
+      "Italian": {
+        "precision": 0.6180904522613065,
+        "recall": 0.7028571428571428,
+        "f1-score": 0.6577540106951871,
+        "support": 175.0
+      },
+      "Japanese": {
+        "precision": 0.935149863760218,
+        "recall": 0.9074563722897938,
+        "f1-score": 0.9210950080515298,
+        "support": 1891.0
+      },
+      "Korean": {
+        "precision": 0.9100917431192661,
+        "recall": 0.8641114982578397,
+        "f1-score": 0.8865058087578195,
+        "support": 574.0
+      },
+      "Russian": {
+        "precision": 0.9371345029239766,
+        "recall": 0.8896599583622484,
+        "f1-score": 0.9127803488786045,
+        "support": 1441.0
+      },
+      "Spanish": {
+        "precision": 0.3880597014925373,
+        "recall": 0.5048543689320388,
+        "f1-score": 0.4388185654008439,
+        "support": 103.0
+      },
+      "Vietnamese": {
+        "precision": 0.5333333333333333,
+        "recall": 0.6956521739130435,
+        "f1-score": 0.6037735849056604,
+        "support": 69.0
+      },
+      "accuracy": 0.8432969539012869,
+      "macro avg": {
+        "precision": 0.6853118369605153,
+        "recall": 0.7235963569706604,
+        "f1-score": 0.7017361332394098,
+        "support": 6139.0
+      },
+      "weighted avg": {
+        "precision": 0.8534096963816901,
+        "recall": 0.8432969539012869,
+        "f1-score": 0.847419350366802,
+        "support": 6139.0
+      }
+    }
+  },
+  "test": {
+    "accuracy": 0.832355816226784,
+    "balanced_accuracy": 0.6951558013116431,
+    "macro_f1": 0.6778662596696658,
+    "top3_accuracy": 0.9351580319322255,
+    "log_loss": 0.5964663624763489,
+    "per_class": {
+      "Chinese": {
+        "precision": 0.8687415426251691,
+        "recall": 0.800498753117207,
+        "f1-score": 0.8332251784555483,
+        "support": 802.0
+      },
+      "English": {
+        "precision": 0.678343949044586,
+        "recall": 0.7571090047393365,
+        "f1-score": 0.7155655095184771,
+        "support": 844.0
+      },
+      "French": {
+        "precision": 0.46153846153846156,
+        "recall": 0.5393258426966292,
+        "f1-score": 0.49740932642487046,
+        "support": 89.0
+      },
+      "German": {
+        "precision": 0.43157894736842106,
+        "recall": 0.543046357615894,
+        "f1-score": 0.4809384164222874,
+        "support": 151.0
+      },
+      "Italian": {
+        "precision": 0.5951219512195122,
+        "recall": 0.6931818181818182,
+        "f1-score": 0.6404199475065617,
+        "support": 176.0
+      },
+      "Japanese": {
+        "precision": 0.9367436743674368,
+        "recall": 0.9010582010582011,
+        "f1-score": 0.9185544768069039,
+        "support": 1890.0
+      },
+      "Korean": {
+        "precision": 0.8972477064220183,
+        "recall": 0.8534031413612565,
+        "f1-score": 0.8747763864042933,
+        "support": 573.0
+      },
+      "Russian": {
+        "precision": 0.9353448275862069,
+        "recall": 0.9029126213592233,
+        "f1-score": 0.9188426252646437,
+        "support": 1442.0
+      },
+      "Spanish": {
+        "precision": 0.3602941176470588,
+        "recall": 0.47572815533980584,
+        "f1-score": 0.4100418410041841,
+        "support": 103.0
+      },
+      "Vietnamese": {
+        "precision": 0.4925373134328358,
+        "recall": 0.4852941176470588,
+        "f1-score": 0.4888888888888889,
+        "support": 68.0
+      },
+      "accuracy": 0.832355816226784,
+      "macro avg": {
+        "precision": 0.6657492491251706,
+        "recall": 0.6951558013116431,
+        "f1-score": 0.6778662596696658,
+        "support": 6138.0
+      },
+      "weighted avg": {
+        "precision": 0.844603840154426,
+        "recall": 0.832355816226784,
+        "f1-score": 0.83733358995143,
+        "support": 6138.0
+      }
+    }
+  },
+  "baseline_tfidf_logistic": {
+    "C": 8,
+    "validation_macro_f1": 0.6985788945334169,
+    "test": {
+      "accuracy": 0.83088954056696,
+      "balanced_accuracy": 0.7008011722458816,
+      "macro_f1": 0.6763200952646182,
+      "top3_accuracy": 0.934832192896709,
+      "log_loss": 0.5827763005002229,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.8709239130434783,
+          "recall": 0.7992518703241895,
+          "f1-score": 0.8335500650195059,
+          "support": 802.0
+        },
+        "English": {
+          "precision": 0.7048260381593715,
+          "recall": 0.7440758293838863,
+          "f1-score": 0.7239193083573487,
+          "support": 844.0
+        },
+        "French": {
+          "precision": 0.42857142857142855,
+          "recall": 0.5730337078651685,
+          "f1-score": 0.49038461538461536,
+          "support": 89.0
+        },
+        "German": {
+          "precision": 0.4187192118226601,
+          "recall": 0.5629139072847682,
+          "f1-score": 0.480225988700565,
+          "support": 151.0
+        },
+        "Italian": {
+          "precision": 0.5021834061135371,
+          "recall": 0.6534090909090909,
+          "f1-score": 0.5679012345679012,
+          "support": 176.0
+        },
+        "Japanese": {
+          "precision": 0.9290038525041276,
+          "recall": 0.8931216931216931,
+          "f1-score": 0.9107094685729701,
+          "support": 1890.0
+        },
+        "Korean": {
+          "precision": 0.9012567324955116,
+          "recall": 0.8760907504363001,
+          "f1-score": 0.8884955752212389,
+          "support": 573.0
+        },
+        "Russian": {
+          "precision": 0.9382183908045977,
+          "recall": 0.9056865464632455,
+          "f1-score": 0.92166549047283,
+          "support": 1442.0
+        },
+        "Spanish": {
+          "precision": 0.38524590163934425,
+          "recall": 0.4563106796116505,
+          "f1-score": 0.4177777777777778,
+          "support": 103.0
+        },
+        "Vietnamese": {
+          "precision": 0.5138888888888888,
+          "recall": 0.5441176470588235,
+          "f1-score": 0.5285714285714286,
+          "support": 68.0
+        },
+        "accuracy": 0.83088954056696,
+        "macro avg": {
+          "precision": 0.6592837764042946,
+          "recall": 0.7008011722458816,
+          "f1-score": 0.6763200952646182,
+          "support": 6138.0
+        },
+        "weighted avg": {
+          "precision": 0.8443924686995269,
+          "recall": 0.83088954056696,
+          "f1-score": 0.8364236700010893,
+          "support": 6138.0
+        }
+      }
+    }
+  },
+  "test_subsets": {
+    "dictionary_or_tutorial": {
+      "rows": 3059,
+      "accuracy": 0.8107224583197123,
+      "balanced_accuracy": 0.7369690291008124,
+      "macro_f1": 0.651404874914516,
+      "top3_accuracy": 0.9388689114089572,
+      "log_loss": 0.6410136222839355,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.3048780487804878,
+          "recall": 0.7352941176470589,
+          "f1-score": 0.43103448275862066,
+          "support": 34.0
+        },
+        "English": {
+          "precision": 0.8192307692307692,
+          "recall": 0.7580071174377224,
+          "f1-score": 0.7874306839186691,
+          "support": 843.0
+        },
+        "French": {
+          "precision": 0.5393258426966292,
+          "recall": 0.5393258426966292,
+          "f1-score": 0.5393258426966292,
+          "support": 89.0
+        },
+        "German": {
+          "precision": 0.5578231292517006,
+          "recall": 0.543046357615894,
+          "f1-score": 0.5503355704697986,
+          "support": 151.0
+        },
+        "Italian": {
+          "precision": 0.6839080459770115,
+          "recall": 0.6918604651162791,
+          "f1-score": 0.6878612716763006,
+          "support": 172.0
+        },
+        "Japanese": {
+          "precision": 0.6954732510288066,
+          "recall": 0.976878612716763,
+          "f1-score": 0.8125,
+          "support": 173.0
+        },
+        "Korean": {
+          "precision": 0.5,
+          "recall": 0.92,
+          "f1-score": 0.647887323943662,
+          "support": 25.0
+        },
+        "Russian": {
+          "precision": 0.9679821295606851,
+          "recall": 0.9027777777777778,
+          "f1-score": 0.9342436219906576,
+          "support": 1440.0
+        },
+        "Spanish": {
+          "precision": 0.45794392523364486,
+          "recall": 0.49,
+          "f1-score": 0.47342995169082125,
+          "support": 100.0
+        },
+        "Vietnamese": {
+          "precision": 0.5416666666666666,
+          "recall": 0.8125,
+          "f1-score": 0.65,
+          "support": 32.0
+        },
+        "accuracy": 0.8107224583197123,
+        "macro avg": {
+          "precision": 0.6068231808426401,
+          "recall": 0.7369690291008124,
+          "f1-score": 0.651404874914516,
+          "support": 3059.0
+        },
+        "weighted avg": {
+          "precision": 0.8305589190575992,
+          "recall": 0.8107224583197123,
+          "f1-score": 0.8166346985160887,
+          "support": 3059.0
+        }
+      }
+    },
+    "wikidata_silver_only": {
+      "rows": 3053,
+      "accuracy": 0.8562070094988535,
+      "balanced_accuracy": 0.6870039280788064,
+      "macro_f1": 0.2953983536381245,
+      "top3_accuracy": 0.9315427448411399,
+      "log_loss": 0.5461935997009277,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.9447852760736196,
+          "recall": 0.806282722513089,
+          "f1-score": 0.8700564971751412,
+          "support": 764.0
+        },
+        "English": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "French": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "German": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Italian": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Japanese": {
+          "precision": 0.9738687061822817,
+          "recall": 0.8930450029222676,
+          "f1-score": 0.9317073170731708,
+          "support": 1711.0
+        },
+        "Korean": {
+          "precision": 0.9353535353535354,
+          "recall": 0.8542435424354243,
+          "f1-score": 0.892960462873674,
+          "support": 542.0
+        },
+        "Russian": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Spanish": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Vietnamese": {
+          "precision": 0.3888888888888889,
+          "recall": 0.19444444444444445,
+          "f1-score": 0.25925925925925924,
+          "support": 36.0
+        },
+        "accuracy": 0.8562070094988535,
+        "macro avg": {
+          "precision": 0.32428964064983257,
+          "recall": 0.27480157123152255,
+          "f1-score": 0.2953983536381245,
+          "support": 3053.0
+        },
+        "weighted avg": {
+          "precision": 0.9528551992662122,
+          "recall": 0.8562070094988535,
+          "f1-score": 0.9014714338568188,
+          "support": 3053.0
+        }
+      }
+    },
+    "single_token": {
+      "rows": 6134,
+      "accuracy": 0.832572546462341,
+      "balanced_accuracy": 0.6954076611023379,
+      "macro_f1": 0.6779513760270555,
+      "top3_accuracy": 0.9351157482882295,
+      "log_loss": 0.5956968069076538,
+      "per_class": {
+        "Chinese": {
+          "precision": 0.8687415426251691,
+          "recall": 0.800498753117207,
+          "f1-score": 0.8332251784555483,
+          "support": 802.0
+        },
+        "English": {
+          "precision": 0.678343949044586,
+          "recall": 0.7571090047393365,
+          "f1-score": 0.7155655095184771,
+          "support": 844.0
+        },
+        "French": {
+          "precision": 0.46601941747572817,
+          "recall": 0.5393258426966292,
+          "f1-score": 0.5,
+          "support": 89.0
+        },
+        "German": {
+          "precision": 0.43157894736842106,
+          "recall": 0.543046357615894,
+          "f1-score": 0.4809384164222874,
+          "support": 151.0
+        },
+        "Italian": {
+          "precision": 0.5960591133004927,
+          "recall": 0.6914285714285714,
+          "f1-score": 0.6402116402116402,
+          "support": 175.0
+        },
+        "Japanese": {
+          "precision": 0.9367436743674368,
+          "recall": 0.9010582010582011,
+          "f1-score": 0.9185544768069039,
+          "support": 1890.0
+        },
+        "Korean": {
+          "precision": 0.8972477064220183,
+          "recall": 0.8534031413612565,
+          "f1-score": 0.8747763864042933,
+          "support": 573.0
+        },
+        "Russian": {
+          "precision": 0.9353448275862069,
+          "recall": 0.9029126213592233,
+          "f1-score": 0.9188426252646437,
+          "support": 1442.0
+        },
+        "Spanish": {
+          "precision": 0.35555555555555557,
+          "recall": 0.48,
+          "f1-score": 0.4085106382978723,
+          "support": 100.0
+        },
+        "Vietnamese": {
+          "precision": 0.4925373134328358,
+          "recall": 0.4852941176470588,
+          "f1-score": 0.4888888888888889,
+          "support": 68.0
+        },
+        "accuracy": 0.832572546462341,
+        "macro avg": {
+          "precision": 0.665817204717845,
+          "recall": 0.6954076611023379,
+          "f1-score": 0.6779513760270555,
+          "support": 6134.0
+        },
+        "weighted avg": {
+          "precision": 0.8448958785127396,
+          "recall": 0.832572546462341,
+          "f1-score": 0.8375813540189605,
+          "support": 6134.0
+        }
+      }
+    }
+  },
+  "test_all_accents_removed": {
+    "accuracy": 0.8315412186379928,
+    "balanced_accuracy": 0.6870605761648998,
+    "macro_f1": 0.672264697473506,
+    "top3_accuracy": 0.9346692733789508,
+    "log_loss": 0.6003695726394653,
+    "per_class": {
+      "Chinese": {
+        "precision": 0.8679245283018868,
+        "recall": 0.8029925187032418,
+        "f1-score": 0.8341968911917098,
+        "support": 802.0
+      },
+      "English": {
+        "precision": 0.676906779661017,
+        "recall": 0.7571090047393365,
+        "f1-score": 0.714765100671141,
+        "support": 844.0
+      },
+      "French": {
+        "precision": 0.44329896907216493,
+        "recall": 0.48314606741573035,
+        "f1-score": 0.46236559139784944,
+        "support": 89.0
+      },
+      "German": {
+        "precision": 0.42780748663101603,
+        "recall": 0.5298013245033113,
+        "f1-score": 0.47337278106508873,
+        "support": 151.0
+      },
+      "Italian": {
+        "precision": 0.5970873786407767,
+        "recall": 0.6988636363636364,
+        "f1-score": 0.643979057591623,
+        "support": 176.0
+      },
+      "Japanese": {
+        "precision": 0.9362286970863112,
+        "recall": 0.9010582010582011,
+        "f1-score": 0.9183068212456188,
+        "support": 1890.0
+      },
+      "Korean": {
+        "precision": 0.8939670932358318,
+        "recall": 0.8534031413612565,
+        "f1-score": 0.8732142857142857,
+        "support": 573.0
+      },
+      "Russian": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9029126213592233,
+        "f1-score": 0.9178709904829044,
+        "support": 1442.0
+      },
+      "Spanish": {
+        "precision": 0.36764705882352944,
+        "recall": 0.4854368932038835,
+        "f1-score": 0.41841004184100417,
+        "support": 103.0
+      },
+      "Vietnamese": {
+        "precision": 0.47692307692307695,
+        "recall": 0.45588235294117646,
+        "f1-score": 0.46616541353383456,
+        "support": 68.0
+      },
+      "accuracy": 0.8315412186379928,
+      "macro avg": {
+        "precision": 0.6621124401708943,
+        "recall": 0.6870605761648998,
+        "f1-score": 0.672264697473506,
+        "support": 6138.0
+      },
+      "weighted avg": {
+        "precision": 0.8430115959555252,
+        "recall": 0.8315412186379928,
+        "f1-score": 0.8361966311483112,
+        "support": 6138.0
+      }
+    }
+  },
+  "train_augmented_rows": 384,
+  "majority_class_test_accuracy": 0.30791788856304986,
+  "split_rows": {
+    "train": 28611,
+    "val": 6139,
+    "test": 6138
+  },
+  "split_independent_groups": {
+    "train": 28593,
+    "val": 6127,
+    "test": 6128
+  },
+  "elapsed_seconds": 189.52,
+  "test_scope": "Held-out Latin-script surnames and given names with a single label among ten selected classes; ambiguous names excluded. Includes Wikidata silver labels derived from subgroup association >=0.95. Not a full-name benchmark or independent etymology validation.",
+  "source_manifest": {
+    "pytorch_names.zip": {
+      "url": "https://download.pytorch.org/tutorial/data.zip",
+      "sha256": "fb317e80248faeb62dc25ef3390ae24ca34b94e276bbc5141fd8862c2200bff5",
+      "bytes": 2882130
+    },
+    "behind_name.csv": {
+      "url": "https://raw.githubusercontent.com/Anwarvic/Behind-The-Name/master/dataset.csv",
+      "sha256": "a40ff6322502db526eabd73877f7d02f39d579c2f69d947af9e3b31598fd5160",
+      "bytes": 2841662
+    },
+    "popular_common-forenames-by-country.csv": {
+      "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-forenames-by-country.csv",
+      "sha256": "b55fbdd0cbc8ddfa7345322e9ebd479cc52fa1f90a5ee7e382a68b5487b01292",
+      "bytes": 124454
+    },
+    "popular_common-surnames-by-country.csv": {
+      "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-surnames-by-country.csv",
+      "sha256": "32cb28bea558a9d353feeef097da03c6488a4e7ba9398e5983cee2f0b9caa91c",
+      "bytes": 95779
+    },
+    "vietnamese_boy.txt": {
+      "url": "https://raw.githubusercontent.com/duyet/vietnamese-namedb/master/boy.txt",
+      "sha256": "c78d7880b4cf197b30e09330159b675c3a0faaba7694399bf871474458d6b24f",
+      "bytes": 15305
+    },
+    "vietnamese_girl.txt": {
+      "url": "https://raw.githubusercontent.com/duyet/vietnamese-namedb/master/girl.txt",
+      "sha256": "939f7711ac87460eb06bcd533b121997eb038152b89adf16218d928a603669e4",
+      "bytes": 15494
+    },
+    "wikidata_given.csv": {
+      "url": "https://raw.githubusercontent.com/reglab/disaggregation/main/data/name_race_data/p_race_given_firstname.csv",
+      "sha256": "6a439523e0d4cf03e21a1f567f0df101fbe9e77bbe251f62849329250a319eac",
+      "bytes": 648734
+    },
+    "wikidata_surname.csv": {
+      "url": "https://raw.githubusercontent.com/reglab/disaggregation/main/data/name_race_data/p_race_given_surname.csv",
+      "sha256": "a9604f20f2c4afb3bb56078d867231c9b57b377a13bc847b5d945f744a8279af",
+      "bytes": 449132
+    }
+  }
+}

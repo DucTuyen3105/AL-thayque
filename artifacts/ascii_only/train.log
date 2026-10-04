@@ -1,0 +1,43 @@
+/home/amira/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-5xd1y7ed because there was an issue with the default path (/home/amira/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Epoch 01: loss=1.4383, val_acc=0.7579, val_macro_f1=0.5436
+Epoch 02: loss=1.1214, val_acc=0.7938, val_macro_f1=0.6087
+Epoch 03: loss=1.0295, val_acc=0.8062, val_macro_f1=0.6319
+Epoch 04: loss=0.9728, val_acc=0.8099, val_macro_f1=0.6324
+Epoch 05: loss=0.9273, val_acc=0.8176, val_macro_f1=0.6634
+Epoch 06: loss=0.8821, val_acc=0.8207, val_macro_f1=0.6657
+Epoch 07: loss=0.8542, val_acc=0.8257, val_macro_f1=0.6670
+Epoch 08: loss=0.8201, val_acc=0.8311, val_macro_f1=0.6727
+Epoch 09: loss=0.7878, val_acc=0.8350, val_macro_f1=0.6880
+Epoch 10: loss=0.7528, val_acc=0.8371, val_macro_f1=0.6838
+Epoch 11: loss=0.7270, val_acc=0.8369, val_macro_f1=0.6876
+Epoch 12: loss=0.7040, val_acc=0.8378, val_macro_f1=0.6871
+Epoch 13: loss=0.6803, val_acc=0.8376, val_macro_f1=0.6900
+Epoch 14: loss=0.6553, val_acc=0.8404, val_macro_f1=0.6897
+Epoch 15: loss=0.6336, val_acc=0.8358, val_macro_f1=0.6846
+Epoch 16: loss=0.6160, val_acc=0.8353, val_macro_f1=0.6820
+Epoch 17: loss=0.6038, val_acc=0.8386, val_macro_f1=0.6911
+Epoch 18: loss=0.5857, val_acc=0.8409, val_macro_f1=0.6869
+Epoch 19: loss=0.5682, val_acc=0.8355, val_macro_f1=0.6836
+Epoch 20: loss=0.5617, val_acc=0.8423, val_macro_f1=0.6890
+Epoch 21: loss=0.5542, val_acc=0.8379, val_macro_f1=0.6825
+Epoch 22: loss=0.5416, val_acc=0.8389, val_macro_f1=0.6888
+Epoch 23: loss=0.5305, val_acc=0.8412, val_macro_f1=0.6950
+Epoch 24: loss=0.5172, val_acc=0.8361, val_macro_f1=0.6822
+Epoch 25: loss=0.5186, val_acc=0.8353, val_macro_f1=0.6809
+Epoch 26: loss=0.5115, val_acc=0.8384, val_macro_f1=0.6824
+Epoch 27: loss=0.5005, val_acc=0.8343, val_macro_f1=0.6784
+Epoch 28: loss=0.4937, val_acc=0.8340, val_macro_f1=0.6888
+Epoch 29: loss=0.4904, val_acc=0.8347, val_macro_f1=0.6818
+Epoch 30: loss=0.4841, val_acc=0.8343, val_macro_f1=0.6785
+Epoch 31: loss=0.4787, val_acc=0.8345, val_macro_f1=0.6749
+Early stopping; restore best validation macro-F1 checkpoint.
+/home/amira/Desktop/thuyet trinh thay que/.venv/lib/python3.14/site-packages/sklearn/metrics/_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+{
+  "accuracy": 0.8282828282828283,
+  "balanced_accuracy": 0.6731399357705171,
+  "macro_f1": 0.6662057678576936,
+  "top3_accuracy": 0.9322254806125774,
+  "log_loss": 0.6164752840995789
+}

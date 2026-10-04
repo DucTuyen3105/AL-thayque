@@ -1,0 +1,42 @@
+{
+  "pytorch_names.zip": {
+    "url": "https://download.pytorch.org/tutorial/data.zip",
+    "sha256": "fb317e80248faeb62dc25ef3390ae24ca34b94e276bbc5141fd8862c2200bff5",
+    "bytes": 2882130
+  },
+  "behind_name.csv": {
+    "url": "https://raw.githubusercontent.com/Anwarvic/Behind-The-Name/master/dataset.csv",
+    "sha256": "a40ff6322502db526eabd73877f7d02f39d579c2f69d947af9e3b31598fd5160",
+    "bytes": 2841662
+  },
+  "popular_common-forenames-by-country.csv": {
+    "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-forenames-by-country.csv",
+    "sha256": "b55fbdd0cbc8ddfa7345322e9ebd479cc52fa1f90a5ee7e382a68b5487b01292",
+    "bytes": 124454
+  },
+  "popular_common-surnames-by-country.csv": {
+    "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-surnames-by-country.csv",
+    "sha256": "32cb28bea558a9d353feeef097da03c6488a4e7ba9398e5983cee2f0b9caa91c",
+    "bytes": 95779
+  },
+  "vietnamese_boy.txt": {
+    "url": "https://raw.githubusercontent.com/duyet/vietnamese-namedb/master/boy.txt",
+    "sha256": "c78d7880b4cf197b30e09330159b675c3a0faaba7694399bf871474458d6b24f",
+    "bytes": 15305
+  },
+  "vietnamese_girl.txt": {
+    "url": "https://raw.githubusercontent.com/duyet/vietnamese-namedb/master/girl.txt",
+    "sha256": "939f7711ac87460eb06bcd533b121997eb038152b89adf16218d928a603669e4",
+    "bytes": 15494
+  },
+  "wikidata_given.csv": {
+    "url": "https://raw.githubusercontent.com/reglab/disaggregation/main/data/name_race_data/p_race_given_firstname.csv",
+    "sha256": "6a439523e0d4cf03e21a1f567f0df101fbe9e77bbe251f62849329250a319eac",
+    "bytes": 648734
+  },
+  "wikidata_surname.csv": {
+    "url": "https://raw.githubusercontent.com/reglab/disaggregation/main/data/name_race_data/p_race_given_surname.csv",
+    "sha256": "a9604f20f2c4afb3bb56078d867231c9b57b377a13bc847b5d945f744a8279af",
+    "bytes": 449132
+  }
+}

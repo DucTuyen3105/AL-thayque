@@ -1,0 +1,35 @@
+/home/amira/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-ot6reabu because there was an issue with the default path (/home/amira/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Epoch 01: loss=1.4302, val_acc=0.7630, val_macro_f1=0.5725
+Epoch 02: loss=1.0898, val_acc=0.7884, val_macro_f1=0.6033
+Epoch 03: loss=1.0000, val_acc=0.8011, val_macro_f1=0.6327
+Epoch 04: loss=0.9378, val_acc=0.8110, val_macro_f1=0.6537
+Epoch 05: loss=0.8918, val_acc=0.8176, val_macro_f1=0.6716
+Epoch 06: loss=0.8510, val_acc=0.8324, val_macro_f1=0.6785
+Epoch 07: loss=0.8136, val_acc=0.8244, val_macro_f1=0.6735
+Epoch 08: loss=0.7777, val_acc=0.8352, val_macro_f1=0.6904
+Epoch 09: loss=0.7488, val_acc=0.8366, val_macro_f1=0.6870
+Epoch 10: loss=0.7163, val_acc=0.8314, val_macro_f1=0.6777
+Epoch 11: loss=0.6947, val_acc=0.8400, val_macro_f1=0.6929
+Epoch 12: loss=0.6687, val_acc=0.8409, val_macro_f1=0.6948
+Epoch 13: loss=0.6458, val_acc=0.8379, val_macro_f1=0.6954
+Epoch 14: loss=0.6254, val_acc=0.8378, val_macro_f1=0.6997
+Epoch 15: loss=0.6062, val_acc=0.8433, val_macro_f1=0.7017
+Epoch 16: loss=0.5902, val_acc=0.8409, val_macro_f1=0.6961
+Epoch 17: loss=0.5733, val_acc=0.8426, val_macro_f1=0.6983
+Epoch 18: loss=0.5623, val_acc=0.8441, val_macro_f1=0.7011
+Epoch 19: loss=0.5455, val_acc=0.8446, val_macro_f1=0.7015
+Epoch 20: loss=0.5339, val_acc=0.8374, val_macro_f1=0.6960
+Epoch 21: loss=0.5249, val_acc=0.8402, val_macro_f1=0.6932
+Epoch 22: loss=0.5196, val_acc=0.8394, val_macro_f1=0.6892
+Epoch 23: loss=0.5096, val_acc=0.8428, val_macro_f1=0.7003
+Early stopping; restore best validation macro-F1 checkpoint.
+/home/amira/Desktop/thuyet trinh thay que/.venv/lib/python3.14/site-packages/sklearn/metrics/_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+{
+  "accuracy": 0.832355816226784,
+  "balanced_accuracy": 0.6951558013116431,
+  "macro_f1": 0.6778662596696658,
+  "top3_accuracy": 0.9351580319322255,
+  "log_loss": 0.5964663624763489
+}

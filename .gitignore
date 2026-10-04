@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.keras/
+sentiment_output/
+translation_output/
+data/iwslt15/
+*.part
+.env
+.env.*
+!.env.example
